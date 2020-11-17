@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:background="@color/appBackGroundColor"
+    tools:context=".Views.DetailsActivity">
+
+    <Button
+        android:id="@+id/btndeletedetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginRight="303dp"
+        android:layout_marginBottom="38dp"
+        android:text="@string/btndeletedetails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtviewusernotesdetails"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgeViewCountryDetails"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtviewcntrynamedetails"
+        app:layout_constraintEnd_toStartOf="@+id/txtviewuserratingdetails"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ca" />
+
+    <TextView
+        android:id="@+id/txtviewCasesdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginRight="231dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/txtviewCasesdetails"
+        app:layout_constraintBottom_toTopOf="@+id/txtviewdeathsdetails"
+        app:layout_constraintEnd_toStartOf="@+id/txtviewusernotesdetails"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtviewdeathsdetails"
+        android:layout_width="94dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="106dp"
+        android:text="@string/txtviewdeathsdetails"
+        app:layout_constraintBottom_toBottomOf="@+id/btnbackdetails"
+        app:layout_constraintStart_toStartOf="@+id/txtviewCasesdetails"
+        app:layout_constraintTop_toTopOf="@+id/txtviewcntrynamedetails" />
+
+    <TextView
+        android:id="@+id/txtviewuserratingdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="412dp"
+        android:layout_marginRight="412dp"
+        android:text="@string/txtviewuserratingdetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgeViewCountryDetails"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtviewusernotesdetails"
+        android:layout_width="0dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="73dp"
+        android:text="@string/txtviewusernotesdetails"
+        app:layout_constraintBottom_toBottomOf="@+id/btndeletedetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtviewCasesdetails"
+        app:layout_constraintTop_toTopOf="@+id/txtviewuserratingdetails" />
+
+    <Button
+        android:id="@+id/btnbackdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginBottom="38dp"
+        android:background="#BF7575"
+        android:text="@string/btnbackdetails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btneditdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="38dp"
+        android:background="#AADA96"
+        android:text="@string/btneditdetails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtviewusernotesdetails" />
+
+    <TextView
+        android:id="@+id/txtviewcntrynamedetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/txtviewcntrynameedit"
+        app:layout_constraintEnd_toEndOf="@+id/imgeViewCountryDetails"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

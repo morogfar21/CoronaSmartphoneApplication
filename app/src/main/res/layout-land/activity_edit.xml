@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:background="@color/appBackGroundColor"
+    tools:context=".Views.EditActivity">
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:background="#AADA96"
+        android:text="@string/buttonOk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextUserinfo"
+        app:layout_constraintStart_toStartOf="@+id/editTextUserinfo" />
+
+    <EditText
+        android:id="@+id/editTextUserinfo"
+        android:layout_width="261dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="@string/editTextUserinfo"
+        android:inputType="text"
+        android:lineSpacingExtra="8sp"
+        android:singleLine="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBarrating"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="218dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="31dp"
+        android:max="100"
+        android:maxHeight="6dip"
+        android:minHeight="6dip"
+        android:paddingLeft="30px"
+        android:paddingTop="10px"
+        android:paddingRight="30px"
+        android:paddingBottom="10px"
+        android:progress="@android:integer/config_mediumAnimTime"
+        app:layout_constraintBottom_toTopOf="@+id/btncanceledit"
+        app:layout_constraintStart_toStartOf="@+id/btncanceledit" />
+
+    <TextView
+        android:id="@+id/seekbarvaluetxtview"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/seekbarvaluetxtview"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBarrating"
+        app:layout_constraintEnd_toStartOf="@+id/txtviewcntrynameedit"
+        app:layout_constraintStart_toStartOf="@+id/seekBarrating"
+        app:layout_constraintTop_toTopOf="@+id/txtviewcntrynameedit" />
+
+    <ImageView
+        android:id="@+id/imgeViewCountryDetails"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/seekbarvaluetxtview"
+        app:layout_constraintEnd_toStartOf="@+id/txtviewcntrynameedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ca" />
+
+    <Button
+        android:id="@+id/btncanceledit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:background="#BF7575"
+        android:text="@string/btncanceledit"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonOk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonOk" />
+
+    <TextView
+        android:id="@+id/txtviewcntrynameedit"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginRight="260dp"
+        android:layout_marginBottom="47dp"
+        android:text="@string/txtviewcntrynameedit"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUserinfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgeViewCountryDetails"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

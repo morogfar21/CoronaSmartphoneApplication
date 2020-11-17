@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">au575154CoronaTracker2</string>
+    <string name="exitButton">Afslut</string>
+    <string name="btnAddMain">Tilføj</string>
+    <string name="buttonOk">Gem</string>
+    <string name="edittxtmainsearch">Søg</string>
+    <string name="editTextUserinfo">Skriv note her</string>
+    <string name="seekbarvaluetxtview">Score: </string>
+    <string name="btncanceledit">Tilbage</string>
+    <string name="txtviewcntrynameedit">Navn: </string>
+    <string name="txtviewCasesdetails">Tilfælde: </string>
+    <string name="txtviewdeathsdetails">Antal døde: </string>
+    <string name="txtviewuserratingdetails">SCore: </string>
+    <string name="txtviewusernotesdetails">Bruger noter: </string>
+    <string name="btnbackdetails">Tilbage</string>
+    <string name="btneditdetails">Ændr</string>
+    <string name="btndeletedetails">Slet</string>
+</resources>

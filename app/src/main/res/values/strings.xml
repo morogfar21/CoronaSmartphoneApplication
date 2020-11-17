@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">au575154CoronaTracker2</string>
+    <string name="exitButton">Exit</string>
+    <string name="btnAddMain">Add</string>
+    <string name="buttonOk">Save</string>
+    <string name="edittxtmainsearch">Search</string>
+    <string name="editTextUserinfo">Write notes here</string>
+    <string name="seekbarvaluetxtview">Rating: </string>
+    <string name="btncanceledit">Back</string>
+    <string name="txtviewcntrynameedit">Name: </string>
+    <string name="txtviewCasesdetails">Cases: </string>
+    <string name="txtviewdeathsdetails">Deaths: </string>
+    <string name="txtviewuserratingdetails">Rating: </string>
+    <string name="txtviewusernotesdetails">User notes: </string>
+    <string name="btnbackdetails">Back</string>
+    <string name="btneditdetails">Edit</string>
+    <string name="btndeletedetails">Delete</string>
+</resources>
